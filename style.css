@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.image{
+    width: fit-content;
+    height: fit-content;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.row{
+    padding: 10px;
+}
+
+@media (min-width: 768px){
+    .phone,.user,.mail,.birthday,.address{
+        text-align: start;
+    }
+    .name{
+        text-align: center;
+    }
+}
